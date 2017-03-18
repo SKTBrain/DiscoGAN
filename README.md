@@ -87,10 +87,6 @@ Example results of gender conversion (CelebA)
 
 <img src="assets/m2f.png" width="600px">
 
-Example results of wearing/taking off eyeglasses
-
-<img src="assets/glasses.png" width="600px">
-
 Example results of Edges2Handbags 
 
 <img src="assets/edges2handbags.png" width="600px">
