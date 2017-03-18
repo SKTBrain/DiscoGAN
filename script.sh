@@ -16,7 +16,7 @@ python ./discogan/image_translation.py --task_name='celebA' --style_A='Male' --b
 # python ./discogan/image_translation.py --task_name='edges2shoes' --batch_size=500
 
 # Run Shoes2Handbags
-# python ./discogan/image_translation.py --task_name='shoes2handbags' --batch_size=500
+# python ./discogan/image_translation.py --task_name='shoes2handbags' --starting_rate=0.5 --batch_size=500
 
 # Run Handbags2Shoes
 # python ./discogan/image_translation.py --task_name='handbags2shoes' --batch_size=500
