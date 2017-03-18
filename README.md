@@ -103,6 +103,6 @@ Example results of gender conversion (Facescrub)
 
 <img src="assets/facescrub.png" width="600px">
 
-Example results of car2face conversion 
+Example results of Car2Face conversion 
 
 <img src="assets/car_face.png" width="600px">
