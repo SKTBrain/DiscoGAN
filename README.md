@@ -78,12 +78,15 @@ Results
 All example results show x_A, x_AB, x_ABA and x_B, x_BA, x_BAB
 
 Example results of hair color conversion
+
 <img src="assets/b2b.png" width="600px">
 
 Example results of gender conversion (CelebA)
+
 <img src="assets/m2f.png" width="600px">
 
 Example results of wearing/taking off eyeglasses
+
 <img src="assets/glasses.png" width="600px">
 
 Example results of Edges2Handbags 
@@ -91,10 +94,13 @@ Example results of Edges2Handbags
 <img src="assets/edges2handbags.png" width="600px">
 
 Example results of Handbags2Shoes 
+
 <img src="assets/h2s.png" width="600px">
 
 Example results of gender conversion (Facescrub)
+
 <img src="assets/facescrub.png" width="600px">
 
 Example results of car2face conversion 
+
 <img src="assets/car_face.png" width="600px">
