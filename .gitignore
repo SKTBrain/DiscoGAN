@@ -1,0 +1,5 @@
+models/*
+results/*
+*.gz
+*.pyc
+
