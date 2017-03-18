@@ -73,6 +73,8 @@ To train Car2Face translation,
 
     $ python ./discogan/angle_pairing.py --task_name='car2face'
 
+Run script.sh in order to train a model using other datasaet, after uncommenting corresponding line.
+
 Results
 =============
 All example results show x_A, x_AB, x_ABA and x_B, x_BA, x_BAB
