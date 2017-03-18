@@ -12,9 +12,9 @@ handbag_path = os.path.join(dataset_path, 'edges2handbags')
 shoe_path = os.path.join(dataset_path, 'edges2shoes')
 facescrub_path = os.path.join(dataset_path, 'facescrub')
 chair_path = os.path.join(dataset_path, 'rendered_chairs')
-face_3d_path = os.path.join(dataset_path, '05_renderings')
+face_3d_path = os.path.join(dataset_path, 'PublicMM1', '05_renderings')
 face_real_path = os.path.join(dataset_path, 'real_face')
-car_path = os.path.join(dataset_path, 'cars')
+car_path = os.path.join(dataset_path, 'data', 'cars')
 
 def shuffle_data(da, db):
     a_idx = range(len(da))
