@@ -18,11 +18,11 @@ Prerequisites
 Training DiscoGAN
 ----------------
 ### CelebA
-<del>Download CelebA dataset using</del>
+Download CelebA dataset using
 
-  <del> python ./datasets/download.py celebA </del>
+    $ python ./datasets/download.py celebA 
 
-Currently, the link for downloading [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset is not available.
+(Currently, the link for downloading [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset is not available).
 
 To train gender conversion,
 
