@@ -22,7 +22,7 @@ Training DiscoGAN
 
   <del> python ./datasets/download.py celebA </del>
 
-Currently, the link for downloading CelebA dataset is not available.
+Currently, the link for downloading [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset is not available.
 
 To train gender conversion,
 
