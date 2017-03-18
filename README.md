@@ -95,5 +95,5 @@ Example results of Handbags2Shoes
 Example results of gender conversion (Facescrub, 128x128 version)
 <img src="assets/facescrub.png" style="width: 800px">
 
-Example results of gender conversion 
+Example results of car2face conversion 
 <img src="assets/car_face.png" style="width: 800px">
