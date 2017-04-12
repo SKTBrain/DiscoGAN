@@ -54,7 +54,7 @@ To train Handbags2Shoes,
     $ python ./discogan/image_translation.py --task_name='Handbags2Shoes' --starting_rate=0.5
 
 ### Facescrub
-Download Edges2Handbags dataset using 
+Download Facescrub dataset using 
 
     $ python ./datasets/download.py facescrub
 
