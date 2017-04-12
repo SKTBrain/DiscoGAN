@@ -34,8 +34,8 @@ parser.add_argument('--n_test', type=int, default=200, help='Number of test data
 
 parser.add_argument('--update_interval', type=int, default=3, help='')
 parser.add_argument('--log_interval', type=int, default=50, help='Print loss values every log_interval iterations.')
-parser.add_argument('--image_save_interval', type=int, default=1000, help='Save test results every log_interval iterations.')
-parser.add_argument('--model_save_interval', type=int, default=10000, help='Save models every log_interval iterations.')
+parser.add_argument('--image_save_interval', type=int, default=1000, help='Save test results every image_save_interval iterations.')
+parser.add_argument('--model_save_interval', type=int, default=10000, help='Save models every model_save_interval iterations.')
 
 def as_np(data):
     return data.cpu().data.numpy()
@@ -127,7 +127,7 @@ def main():
     data_style_A, data_style_B, test_style_A, test_style_B = get_data()
 
     if args.task_name.startswith('edges2'):
-        test_A = ges( test_style_A, 'A', args.image_size )
+        test_A = read_images( test_style_A, 'A', args.image_size )
         test_B = read_images( test_style_B, 'B', args.image_size )
 
     elif args.task_name == 'handbags2shoes' or args.task_name == 'shoes2handbags':
