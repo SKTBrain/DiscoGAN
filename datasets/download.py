@@ -143,7 +143,7 @@ def preprocess_facescrub(dirpath):
         pool.join()
 
 
-def download_facescrub((data_dir, genders, names, urls, bboxes)):
+def download_facescrub(data_dir, genders, names, urls, bboxes):
     """
         download from urls into folder names using wget
     """
